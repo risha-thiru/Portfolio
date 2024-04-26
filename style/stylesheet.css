@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#main-container{
+  background-color: #A6D7D3;
+  width: 1024px;
+  height: 140px;
+  border: solid 1px black;
+}
+
+#my-portfolio{
+  background-color: #A6D7D3;
+  width: 1024px;
+  height: 140px;
+  border: solid 1px black;
+  margin-top: 33px;
+}
+
+#directs {  
+  height: 140px;
+}
