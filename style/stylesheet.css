@@ -22,3 +22,24 @@ body{
 #directs {  
   height: 140px;
 }
+
+ul{
+  justify-content: space-evenly;
+  display: flex;
+  list-style-type: none;
+}
+
+#banner{
+  font-size: 50px;
+  color: white;
+  background-color: #2B8B93;
+  border: solid 10px #FFBF0A;
+  width: 537px;
+  height: 101px;
+}
+
+#list{
+  color: white;
+  background-color: #2B8B93;
+  border: solid 10px #FFBF0A;
+}
