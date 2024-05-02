@@ -8,14 +8,12 @@ body{
   background-color: #A6D7D3;
   width: 1024px;
   height: 140px;
-  border: solid 1px black;
 }
 
 #my-portfolio{
   background-color: #A6D7D3;
   width: 1024px;
   height: 140px;
-  border: solid 1px black;
   margin-top: 33px;
 }
 
@@ -40,9 +38,10 @@ ul{
   background-color: #2B8B93;
   border: solid 10px #FFBF0A;
   width: 517px;
-  height: 81px;
+  height: 70px;
   padding: 10px;
-  padding-top: 25px;
+  padding-top: 13px;
+  margin-top: 15px;
 }
 
 #list{
@@ -60,6 +59,27 @@ ul{
   width: 341px;
   color: #2B8B93;
   height: 25px;
-  padding-bottom: 45px;
+  padding-bottom: 50px;
   font-size: large;
+}
+
+#stilllife{
+  border: #FFBF0A solid 10px;
+  width: 320px;
+  height: 370px;
+}
+
+#life{
+  background-color: #A6D7D3;
+  width: 290px;
+  height: 340px;
+  border: #A6D7D3 15px solid;
+}
+
+#subhead{
+  width: 415;
+  height: 71px;
+  background-color: #2B8B93;
+  border: #FFBF0A solid 10px;
+  color: white;
 }
