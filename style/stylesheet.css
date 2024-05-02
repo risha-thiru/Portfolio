@@ -27,19 +27,39 @@ ul{
   justify-content: space-evenly;
   display: flex;
   list-style-type: none;
+  justify-content: space-around;
+  margin-right: 40px;
 }
 
 #banner{
-  font-size: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
   color: white;
   background-color: #2B8B93;
   border: solid 10px #FFBF0A;
-  width: 537px;
-  height: 101px;
+  width: 517px;
+  height: 81px;
+  padding: 10px;
+  padding-top: 25px;
 }
 
 #list{
   color: white;
   background-color: #2B8B93;
-  border: solid 10px #FFBF0A;
+  padding: 5px;
+}
+
+#my-name{
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  margin-top: 15px;
+  background-color: #A6D7D3;
+  width: 341px;
+  color: #2B8B93;
+  height: 25px;
+  padding-bottom: 45px;
+  font-size: large;
 }
