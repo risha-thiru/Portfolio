@@ -2,6 +2,8 @@ body{
     margin: 0px;
     display: flex;
     justify-content: center;
+    font-family: "PT Mono", monospace;
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 }
 
 #main-container{
@@ -14,22 +16,25 @@ body{
   display: grid;
   grid-template-columns: [first] 180px [line2] 800px;
   column-gap: 50px;
+  border: solid black 1px;
 }
 
 #list{
+  text-align: center;
   color: white;
   background-color: #2B8B93;
   padding: 5px;
-  height: 70px;
+  height: 40px;
   width: 170px;
-  font-size: 20px;
-  border: black solid 1px;
+  padding-top: 17px;
+  font-size: 23px;
+  font-weight: 570;
+  border-radius: 12px;
+
 }
 
 #directs{
-  display: flex;
-  justify-content: space-between;
-  margin-left: 50px;
+  padding-top: 17px;
 }
 
 #my-portfolio{
