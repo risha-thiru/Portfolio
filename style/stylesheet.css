@@ -16,7 +16,6 @@ body{
   display: grid;
   grid-template-columns: [first] 180px [line2] 800px;
   column-gap: 50px;
-  border: solid black 1px;
 }
 
 #list{
@@ -30,7 +29,6 @@ body{
   font-size: 23px;
   font-weight: 570;
   border-radius: 12px;
-
 }
 
 #directs{
@@ -41,6 +39,7 @@ body{
   background-color: #A6D7D3;
   width: 1024px;
   height: 140px;
+  padding-top: 30px;
 }
 
 ul{
@@ -61,6 +60,7 @@ ul{
   width: 517px;
   height: 70px;
   padding: 10px;
+  border-radius: 12px;
 }
 
 #my-name{
@@ -74,31 +74,76 @@ ul{
   height: 25px;
   padding-bottom: 50px;
   font-size: large;
+  border-radius: 12px;
 }
 
 #stilllife{
-  border: #FFBF0A solid 10px;
-  width: 320px;
-  height: 370px;
-}
-
-#life{
-  background-color: #A6D7D3;
-  width: 290px;
-  height: 340px;
-  border: #A6D7D3 15px solid;
+  /* border: #FFBF0A solid 10px; */
+  width: 250px;
+  height: 330px;
+  border-radius: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  background-color:#A6D7D3;
+  border:#FFBF0A 15px solid;
 }
 
 #nice{
   background-color: #2B8B93;
-  border: #FFBF0A solid 10px;
+  border:#FFBF0A solid 10px;
   color: white;
   width: 415px;
-  height: 71px;
-  font-size: 20px;
+  height: 25px;
+  font-size: 22px;
+  border-radius: 12px;
+  text-align: center;
+  padding-bottom: 60px;
 }
 
 #logo{
   margin-left: 40px;
   margin-top: 15px;
+}
+
+#bio{
+  background-color: #A6D7D3;
+  width: 413px;
+  height: 185px;
+  color: #2B8B93;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+#artlink{
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  background-color: #2B8B93;
+  color: white;
+  font-weight: lighter;
+  height: 45px;
+  width: 457px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 12px;
+  margin-top: 25px;
+}
+
+#nicebio{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#nicetomeetyou{
+  margin-left: 60px;
+}
+
+#bluerectangle{
+  width: 1024px;
+  background-color: #A6D7D3;
+  height: 47px;
+  margin-top: 30px;
 }
