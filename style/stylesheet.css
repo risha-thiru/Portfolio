@@ -95,10 +95,10 @@ ul{
   color: white;
   width: 415px;
   height: 25px;
-  font-size: 22px;
+  font-size: 23px;
   border-radius: 12px;
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 70px;
 }
 
 #logo{
@@ -146,4 +146,24 @@ ul{
   background-color: #A6D7D3;
   height: 47px;
   margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#moreabout{
+  background-color: #2B8B93;
+  border:#FFBF0A solid 10px;
+  color: white;
+  width: 375px;
+  height: 50px;
+  font-size: 23px;
+  border-radius: 12px;
+  text-align: center;
+  padding-bottom: 40px;
+  margin-left: 65px;
+}
+
+#variety{
+  color:#2B8B93;
+  background-color: #A6D7D3;
+  padding: 15px
 }
