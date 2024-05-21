@@ -211,3 +211,59 @@ a {
 a:hover {
   color: #FFBF0A;
 }
+
+#my-contacts{
+  background-color: #A6D7D3;
+  width: 1024px;
+  height: 140px;
+  padding-top: 30px;
+}
+
+#hellovro{
+  background-color: #2B8B93;
+  color: white;
+  width: 388px;
+  padding: 10px;
+  border-radius: 12px;
+  margin: auto;
+  margin-top: 30px;
+  font-weight: 150;
+  text-align: center;
+}
+
+#actualcontacts{
+  background-color: #A6D7D3;
+  color: #2B8B93;
+  width: 415px;
+  height: 230px;
+  border-radius: 12px;
+  padding: 11px;
+  line-height: 55px;
+}
+
+#require{
+  color: #2B8B93;
+  width: 388px;
+}
+
+#contactstuff{
+display: flex;
+margin-top: 15px;
+justify-content: center;
+justify-content: space-around;
+}
+
+#insta{
+  color: white;
+  background-color: #2B8B93;
+  font-weight: 150;
+  padding: 10px;
+  width: 520px;
+  border-radius: 12px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#resume{
+ margin: 42px;
+}
