@@ -12,6 +12,11 @@ body{
   height: 140px;
 }
 
+#logo{
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
 #top{
   display: grid;
   grid-template-columns: [first] 180px [line2] 800px;
