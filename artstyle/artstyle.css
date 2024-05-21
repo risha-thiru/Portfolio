@@ -7,9 +7,13 @@ body{
 }
 
 #main-container{
-  background-color: #A6D7D3;
+  background-color: #ffffff;
   width: 1024px;
-  height: 140px;
+}
+
+#art{
+  background-color: #A6D7D3;
+  margin-top: 52.5px;
 }
 
 #logo{
@@ -18,9 +22,11 @@ body{
 }
 
 #top{
+  background-color: #A6D7D3;
   display: grid;
   grid-template-columns: [first] 180px [line2] 800px;
   column-gap: 50px;
+  height: 140px;
 }
 
 #list{
@@ -38,9 +44,10 @@ body{
 
 #directs{
   padding-top: 17px;
+
 }
 
-#my-portfolio{
+#my-artworks{
   background-color: #A6D7D3;
   width: 1024px;
   height: 140px;
@@ -66,4 +73,34 @@ ul{
   height: 70px;
   padding: 10px;
   border-radius: 12px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #FFBF0A;
+}
+
+#images{
+  margin-left: 120px;
+}
+
+#artworkbio{
+  width: 415px;
+  background-color: #ffffff;
+  /* justify-content: center; */
+  color: #2B8B93;
+  border-radius: 12px;
+  height: 102px;
+  padding-top: 15px;
+  text-align: center;
+  margin-left: 300px;
+  margin-bottom: 30px;
+}
+
+#blue{
+  height: 40px;
+  background-color: #A6D7D3;
 }
