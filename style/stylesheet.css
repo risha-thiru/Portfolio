@@ -267,3 +267,36 @@ justify-content: space-around;
 #resume{
  margin: 42px;
 }
+
+#art{
+  background-color: #A6D7D3;
+  margin-top: 52.5px;
+}
+
+#my-artworks{
+  background-color: #A6D7D3;
+  width: 1024px;
+  height: 140px;
+  padding-top: 30px;
+}
+#images{
+  margin-left: 120px;
+}
+
+#artworkbio{
+  width: 415px;
+  background-color: #ffffff;
+  /* justify-content: center; */
+  color: #2B8B93;
+  border-radius: 12px;
+  height: 102px;
+  padding-top: 15px;
+  text-align: center;
+  margin-left: 300px;
+  margin-bottom: 30px;
+}
+
+#blue{
+  height: 40px;
+  background-color: #A6D7D3;
+}
